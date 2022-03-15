@@ -4,6 +4,8 @@ Simple counting app built using Javascript, HTML and CSS
 
 ## Git workflow
 
+### Setting up Git
+
 git init
 
 git status
