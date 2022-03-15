@@ -22,7 +22,7 @@ git commit -am (if file was modified and not created)
 
 git push -u origin master (upstream)
 
-git log
+git log - to check all the commits
 
 ### Branching
 
@@ -34,4 +34,6 @@ git merge _branch name_ or master (to sync your master with updates)
 
 Undoing a staging (undoing the git add command) - git reset or git reset _filename_
 
-Undoing a commit - git reset HEAD~1 (here we point to the commit that was one before the new commit). This will undo the commit and unstage the change as well
+Undoing a commit - git reset HEAD~1 (here we point to the commit that was one before the new commit). This will undo the commit and unstage the change as well. You can also git reset _hash_ that can be found using git log
+
+git reset --hard will also erase the changes
