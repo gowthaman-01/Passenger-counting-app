@@ -1,5 +1,7 @@
 # Passenger counting app
 
+![screenshot](Screenshots/screenshot.jpg)
+
 Simple counting app built using Javascript, HTML and CSS
 
 ## Git workflow

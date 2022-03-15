@@ -7,7 +7,7 @@ body {
   background-image: url("/Images/station.jpg");
   background-size: cover;
   padding: 200px;
-  width: 200px;
+  width: 210px;
   margin: auto;
   margin-top: 130px;
   border-radius: 5px;
@@ -61,4 +61,21 @@ button {
 
 #save-btn {
   background: darkgreen;
+  opacity: 0.8;
+  width: 130px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#save-btn:hover {
+  opacity: 1;
+}
+
+p {
+  background-color: #dfcfbe;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  color: #333333;
+  text-align: center;
 }
