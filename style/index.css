@@ -11,6 +11,7 @@ body {
   margin: auto;
   margin-top: 130px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .text {
@@ -37,17 +38,19 @@ h2 {
 
 button {
   border: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   color: white;
   font-weight: bold;
-  width: 200px;
-  margin-bottom: 5px;
+  width: fit-content;
   border-radius: 5px;
 }
 
 #increment-btn {
-  background: darkred;
+  background: #34568b;
+  opacity: 0.9;
+  width: 130px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 #save-btn {
