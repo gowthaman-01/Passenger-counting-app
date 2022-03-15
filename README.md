@@ -19,3 +19,7 @@ git remote add origin _ssh key_
 git commit -m _title_ -m _description_
 
 git push -u origin master (upstream)
+
+### Branching
+
+Create new branch --> git checkout -b _new branch name_
