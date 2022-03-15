@@ -43,14 +43,20 @@ button {
   font-weight: bold;
   width: fit-content;
   border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 #increment-btn {
   background: #34568b;
-  opacity: 0.9;
+  opacity: 0.8;
   width: 130px;
   margin-top: 10px;
   font-size: 15px;
+}
+
+#increment-btn:hover {
+  opacity: 1;
 }
 
 #save-btn {
