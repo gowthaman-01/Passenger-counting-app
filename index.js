@@ -15,5 +15,7 @@ const save = () => {
         saved[1] = saved[2]; 
         saved[2] = countElement.innerText;
         savedContent.innerText = toDisplay(saved);
+        countElement.innerText = 0;
+        count = 0;
 }
 
